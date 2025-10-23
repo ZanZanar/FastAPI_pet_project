@@ -1,2 +1,17 @@
-DATABASE_URL=postgresql://postgres:password@localhost:5432/notes_db
-SECRET_KEY=supersecretkey
+# env & caches
+venv/
+.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite*
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/
+
+# os junk
+.DS_Store
+Thumbs.db
