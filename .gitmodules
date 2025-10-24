@@ -1,0 +1,3 @@
+[submodule "fastapi_notes_api"]
+	path = fastapi_notes_api
+	url = https://github.com/ZanZanar/fastapi-notes-api.git
