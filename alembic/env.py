@@ -11,6 +11,10 @@ from fastapi_notes_api.app.models.user_note import Base
 from fastapi_notes_api.app.core.config import settings
 
 
+BASE_DIR = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(BASE_DIR))
+
+
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
